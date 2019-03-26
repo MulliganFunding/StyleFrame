@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from StyleFrame.version import _version_
 
 DESCRIPTION = 'A library that wraps pandas and openpyxl and allows easy styling of dataframes in excel. Documentation can be found at http://styleframe.readthedocs.org'
 
@@ -9,7 +8,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version=_version_,
+    version='2.0.2-mf.rc1',
 
     description=DESCRIPTION,
     long_description=DESCRIPTION,
